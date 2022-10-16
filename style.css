@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgba(255,255,255,.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.contacts{
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.76);
+    box-shadow: 1px 2px 3px black;
+    width: 400px;
+    height: 400px;
+    padding: 30px 15px;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.icon{
+    list-style: none;
+    width: 20%;
+    height: 71px;
+    padding-top: 22px;
+    font-size: 26px;
+    background: var(--clr);
+    color:white;
+    transition: .4s ease-in;
+}
+.icon:last-child{
+    padding-top: 17px;
+    font-size: 37px;
+}
+.title{
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:20px;
+}
+.btn{
+    background: #4149a3;
+    border:none;
+    font-size: 15px;
+    border-radius: 40px;
+    padding: 20px 60px;
+    color:white;
+    cursor: pointer;
+
+transition: .3s ease-in;
+}
+.btn:hover{
+    filter:drop-shadow(10px 15px 20px #4149a3);
+}
+.link{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.icon:hover{
+    color:var(--clr);
+    background: white;
+    filter:drop-shadow(5px 10px 15px var(--clr));
+}
